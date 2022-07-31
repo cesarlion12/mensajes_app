@@ -5,26 +5,38 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConexionSigleton {
-    // Propiedades
-    private static Connection connection = null;
-    private String url;
-    private String usuario;
-    private String password;
 
-    //constructor
+    //Variable donde vamos a guardar el estado de la conexión a la BD
+    private static Connection connection = null;
+
     private ConexionSigleton(){
+        // Variables para podernos conectar a la base de datos
         String url = "jdbc:mysql://localhost:3306/mensajes_app";
         String usuario = "root";
         String password = "123456";
-
-        try {
-            connection = DriverManager.getConnection(url,usuario,password);
-        }catch (SQLException e){
-            System.out.println("Error de Conexión " + e);
-        }
+            try {
+                Class.forName("com.mysql.cj.jdbc.Driver");
+                connection = DriverManager.getConnection(url,usuario,password);
+            }catch(ClassNotFoundException | SQLException e){
+                System.out.println(e);
+            }
     }
 
-    //Metodo de conexión
+    // Metodo para cerrar la conexion
+   /* public static Connection closeConnectBD() throws SQLException {
+        try{
+            if(connection != null){
+                connection.close();
+            }
+        }catch(Exception e){
+            connection.close();
+        }finally{
+            connection.close();
+        }
+        return connection;
+    }*/
+
+    //Patron siglenton
     public static Connection getConnection(){
         if(connection == null){
             new ConexionSigleton();

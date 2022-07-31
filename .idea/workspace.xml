@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76dbd62c-614e-4ce2-94ee-0c6ac639f7e4" name="Changes" comment="modifcando el workspace">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mensajes_app/ConexionSigleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mensajes_app/Mensajes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mensajes_app/MensajesDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mensajes_app/MensajesService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mensajes_app/Conexion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mensajes_app/ConexionSigleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mensajes_app/ConexionSigleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mensajes_app/Inicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mensajes_app/Inicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mensajes_app/Conexion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mensajes_app/MensajesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mensajes_app/MensajesDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mensajes_app/MensajesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mensajes_app/MensajesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mensajes_app/ConexionSigleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mensajes_app/ConexionSigleton.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/mensajes_app/Inicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mensajes_app/Inicio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mensajes_app/MensajesDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mensajes_app/MensajesDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mensajes_app/MensajesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mensajes_app/MensajesService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

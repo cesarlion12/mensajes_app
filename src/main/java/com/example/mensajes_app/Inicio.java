@@ -3,10 +3,11 @@ package com.example.mensajes_app;
 import org.omg.CORBA.INTERNAL;
 
 import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.Scanner;
 
 public class Inicio {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
 
         Scanner sc = new Scanner(System.in);
 
@@ -17,8 +18,8 @@ public class Inicio {
             System.out.println("Aplicación de mensajes");
             System.out.println("1. crear mensajes");
             System.out.println("2. listar mensajes");
-            System.out.println("3. editar mensajes");
-            System.out.println("4. eliminar mensaje");
+            System.out.println("3. eliminar mensajes");
+            System.out.println("4. editar mensaje");
             System.out.println("5. salir");
 
             opc = sc.nextInt();
